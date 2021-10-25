@@ -1,5 +1,5 @@
 puts "Enter a number"
-n, moves = gets.chomp.to_i, 0
+n, moves = gets.to_i, 0
 
 while n != 1
 	n += n.even? ? -n/2 : 2*n+1
